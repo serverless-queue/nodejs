@@ -1,0 +1,36 @@
+{
+  "name": "@serverless-queue/nodejs",
+  "version": "1.0.0",
+  "description": "A Node.js client for working with serverlessqueue.com",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-queue/nodejs.git"
+  },
+  "keywords": [
+    "serverless",
+    "queue"
+  ],
+  "homepage": "https://www.serverlessqueue.com",
+  "author": "John Cantrell <johncantrell97@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "superjson": "^1.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/serverless-queue/nodejs/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^4.0.3"
+  }
+}
